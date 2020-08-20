@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/images_9"
+    tools:context=".RegisterActivity">
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:layout_width="150dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:layout_margin="20dp"-->
+    <!--        android:layout_gravity="center_horizontal"-->
+    <!--        app:cardCornerRadius="50dp">-->
+    <!--        <ImageView-->
+    <!--            android:layout_width="150dp"-->
+    <!--            android:layout_height="100dp"-->
+    <!--            android:layout_gravity="center_horizontal"-->
+    <!--            android:background="@drawable/playstore_icon">-->
+
+    <!--        </ImageView>-->
+    <!--    </androidx.cardview.widget.CardView>-->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="Register As a Partner"
+                android:textColor="#000000"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/reg_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_background"
+                android:layout_marginVertical="5dp"
+                android:drawableLeft="@drawable/ic_person"
+                android:hint="Name"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="#0F1010"
+                android:textColorHint="#131313">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/reg_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="10dp"
+                android:background="@drawable/edit_text_background"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:fontFamily="@font/roboto"
+                android:padding="10dp"
+                android:textColor="#0F1010"
+                android:textColorHint="#131313">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/reg_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/edit_text_background"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto"
+                android:padding="10dp"
+                android:textColor="#0F1010"
+                android:textColorHint="#131313">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/reg_mobileNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableLeft="@drawable/ic_call"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/roboto"
+                android:hint=" Mobile Number"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:padding="10dp"
+                android:textColor="#0F1010"
+                android:textColorHint="#131313">
+
+            </EditText>
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/edit_text_background"
+                android:scrollIndicators="end"
+                android:tooltipText="Choose City">
+
+            </Spinner>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone">
+
+            </ProgressBar>
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:background="@drawable/btn_background"
+                android:padding="18dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Register"
+                android:textColor="#FDFAFA">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/reg_old_user"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center_horizontal"
+                android:text="Already a user?"
+                android:textColor="#1A1A1B"
+                android:textSize="20sp">
+
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

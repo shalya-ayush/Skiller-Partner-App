@@ -52,6 +52,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "177704724907-1klgb91i4ig29ad0a7s7ahod20h7f8ir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yashraj.skillerpartnerapp",
+            "certificate_hash": "1685b53bd337083e14c993ffa9240021c577ce27"
+          }
+        },
+        {
           "client_id": "177704724907-e5cm8vcfdudvn6rfvdlisepm3e0uqoq4.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
